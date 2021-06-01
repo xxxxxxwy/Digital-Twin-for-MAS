@@ -1,0 +1,79 @@
+#########################################
+#class
+#########################################
+WisdomElement			KEYWORD1
+WisdomElement_Sensor		KEYWORD1
+WisdomElement_FLOAT32bit		KEYWORD1
+WisdomElement_Union		KEYWORD1
+WisdomElement_US_MODE		KEYWORD1
+
+
+
+
+#########################################
+#function
+#########################################
+Begin			KEYWORD2
+WaitBegin			KEYWORD2
+Stop			KEYWORD2
+ReStart			KEYWORD2
+MoveModeSet		KEYWORD2
+MoveControl		KEYWORD2
+RobotMode		KEYWORD2
+MotionSet		KEYWORD2
+MotionRun_name		KEYWORD2
+VoicePlay
+VoicePlay_User
+
+
+QRcode_compare		KEYWORD2
+QRcode_cleare		KEYWORD2
+
+
+SetChannel		KEYWORD2
+COLOR_ColorRead		KEYWORD2
+COLOR_LumRead		KEYWORD2
+COLOR_ReflexRead		KEYWORD2
+COLOR_Read		KEYWORD2
+Infrared_Exp_Bod		KEYWORD2
+
+US_ContinuMode		KEYWORD2
+US_ListenerMode		KEYWORD2
+US_SingleMode		KEYWORD2
+US_ContinuRead		KEYWORD2
+US_ListenerRead		KEYWORD2
+US_SingleRead		KEYWORD2
+US_ReadValue		KEYWORD2
+US_Read_CM		KEYWORD2
+		
+TEMP_SetOffset		KEYWORD2
+TEMP_ReadValue		KEYWORD2
+TEMP_ReadValueInt16	KEYWORD2
+		
+ANGLE_AccelX		KEYWORD2
+ANGLE_AccelY		KEYWORD2
+ANGLE_AccelZ		KEYWORD2
+ANGLE_GyroX		KEYWORD2
+ANGLE_GyroY		KEYWORD2
+ANGLE_GyroZ		KEYWORD2
+ANGLE_Yaw		KEYWORD2
+ANGLE_Pitch		KEYWORD2
+ANGLE_Roll		KEYWORD2
+ANGLE_MathHz		KEYWORD2
+ANGLE_AngleT		KEYWORD2
+ANGLE_Angle		KEYWORD2
+ANGLE_RTS		KEYWORD2
+AccelRead			KEYWORD2
+		
+DisplayInt16		KEYWORD2
+DisplayFloat		KEYWORD2
+			
+Touch_ReadStatus		KEYWORD2
+Sound_ReadValue		KEYWORD2
+
+
+#########################################
+COLOR_DVICEADD		LITERAL1
+US_DVICEADD		LITERAL1
+TEMP_DVICEADD		LITERAL1
+ANGLE_DVICEADD		LITERAL1
