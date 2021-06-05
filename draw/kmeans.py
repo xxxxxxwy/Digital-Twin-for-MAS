@@ -54,7 +54,7 @@ def generate_fake_data(cmd_ary):
     return points
 
 
-points=generate_fake_data("rsslssrrssl")
+points=generate_fake_data("rsslsrs")
 
 
 
@@ -65,9 +65,9 @@ for i in range(0,len(points)):
     ly.append(points[i][1])
 
 print("blue:",len(lx))
-plt.scatter(lx,ly,color='blue')
+plt.scatter(lx,ly,color='blue',marker='o')
 
-points1=straight_line_wrong_case(60)
+points1=straight_line_wrong_case(20)
 
 lx=[]
 ly=[]
@@ -76,7 +76,7 @@ for i in range(0,len(points1)):
     ly.append(points1[i][1])
 
 print("red:",len(lx))
-plt.scatter(lx, ly, color='red')
+plt.scatter(lx, ly, color='red',marker='v')
 plt.show()
 
 
@@ -124,11 +124,11 @@ for i in range(0,len(data)):
 
 
 
-plt.scatter(lx1, ly1, color='red')
-plt.scatter(lx2, ly2, color='gold')
-plt.scatter(lx3, ly3, color='blue')
-plt.scatter(lx4, ly4, color='green')
-plt.scatter(lx5, ly5, color='cyan')
+plt.scatter(lx1, ly1, color='red',marker='o')
+plt.scatter(lx2, ly2, color='gold',marker='v')
+plt.scatter(lx3, ly3, color='blue',marker='s')
+plt.scatter(lx4, ly4, color='green',marker='*')
+plt.scatter(lx5, ly5, color='cyan',marker='+')
 plt.show()
 
 

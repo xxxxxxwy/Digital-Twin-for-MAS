@@ -174,8 +174,8 @@ while cnt<10000:
     cnt += 1
 ly1.sort()
 ly2.sort()
-plt.plot(lx1,ly1,color='blue',label='Two-way channel')
-plt.plot(lx2,ly2,color='red',label='One-way channel')
+plt.plot(lx1,ly1,color='blue',label='Two-way channel',linestyle='-')
+plt.plot(lx2,ly2,color='red',label='One-way channel',linestyle=':')
 plt.legend(loc='upper left')
 
 

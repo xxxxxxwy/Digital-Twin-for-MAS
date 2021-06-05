@@ -357,8 +357,9 @@ def one_way(lx, ly):
     return max(length, len1)
 
 
+import matplotlib.pyplot as plt
 # 画图
-'''
+
 pltx=[]
 plty=[]
 pltz=[]
@@ -439,15 +440,15 @@ pltaa.append(two_way(x1,y1)+two_way(x2,y2)+two_way(x3,y3)+two_way(x4,y4)+two_way
 
 
 
-plt.bar(range(0,40,10),pltx,color='blue',label="One-way channel")
-plt.bar(range(1,41,10),plty,color='blue')
-plt.bar(range(2,42,10),pltz,color='blue')
-plt.bar(range(3,43,10),pltw,color='red',label="Two-way channel(fixed workplace)")
-plt.bar(range(4,44,10),pltaa,color='orange',label="Two-way channel(dynamic workplace)")
+plt.bar(range(0,40,10),pltx,color='blue',label="One-way channel",hatch='/')
+plt.bar(range(1,41,10),plty,color='blue',hatch='/')
+plt.bar(range(2,42,10),pltz,color='blue',hatch='/')
+plt.bar(range(3,43,10),pltw,color='red',label="Two-way channel(fixed workplace)",hatch='//')
+plt.bar(range(4,44,10),pltaa,color='orange',label="Two-way channel(dynamic workplace)",hatch='\\')
 plt.xticks([2,12,22,32],['500','1000','5000','10000'])
 plt.legend(loc="upper left")
 plt.show()
-'''
+
 
 # 画图
 '''
